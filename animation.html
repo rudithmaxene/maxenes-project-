@@ -6,6 +6,12 @@
   </head>
   <body>
     <svg width="80%" viewBox="0 0 200 300">
+      <rect x="50" y="50" width="55" height="100" fill="purple">
+      <animate attributeName="fill" from="purple" to="darkblue" begin="mouseover" dur="10s"/>
+    </rect>
+      <rect x="100" y="50" width="55" height="100" fill="darkblue">
+      <animate attributeName="fill" from="darkblue" to="purple" begin="mouseover" dur="10s"/>
+    </rect>
       <circle cx="100" cy="100" r="25" fill="blue"/>
       <circle cx="75" cy="85" r="10" fill="blue"/>
       <circle cx="130" cy="85" r="10" fill="blue"/>
@@ -20,7 +26,8 @@
       <circle cx="100" cy="99" r="4" fill="blue"/>
       <ellipse cx="87" cy="125" rx="9" ry="3" fill="blue"/>
       <ellipse cx="115" cy="125" rx="9" ry="3" fill="blue"/>
-      <line x1="35" y1="34" x2="35" y2="155" stroke="black" stroke-width="10"/>
+
+
 
   </body>
 </html>
